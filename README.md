@@ -30,7 +30,7 @@ Directory contents to a file:
 flatten /path/to/project > all_content.txt
 ```
 
-Send contents to CLI LLM tool
+Send contents to another tool:
 ```bash
 flatten /path/to/project | cli-llm review this code
 ```
